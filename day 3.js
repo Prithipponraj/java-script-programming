@@ -1,75 +1,75 @@
-//Day 3
+// //Day 3
 
-//function
-//normal function
+// //function
+// //normal function
 
-let Name ="Ponraj"
+// let Name ="Ponraj"
 
-function value() {
-    console.log('nor fun');
-    console.log(Name);
+// function value() {
+//     console.log('nor fun');
+//     console.log(Name);
     
-}
-value()
+// }
+// value()
 
-// //anonmyous funtion
+// // //anonmyous funtion
 
-const subtract = function (a,b) {
-    return(a-b)
+// const subtract = function (a,b) {
+//     return(a-b)
 
-};
-console.log(subtract(20,10));
+// };
+// console.log(subtract(20,10));
 
-// arrow function
+// // arrow function
 
-const multiply = (a,b) => a * b;
+// const multiply = (a,b) => a * b;
 
 
-console.log(multiply(30, 5));
+// console.log(multiply(30, 5));
 
-const multi = (x,y)=> x * y
+// const multi = (x,y)=> x * y
 
-console.log(multiply(100,50));
+// console.log(multiply(100,50));
 
 // IIFE function
 
-(function(){
-    console.log("FSD");
+// (function(){
+//     console.log("FSD");
     
-})();
+// })();
 
-(function(){
-    console.log("Day 3 of live session");
+// (function(){
+//     console.log("Day 3 of live session");
     
-})();
+// })();
 
-let abc=10;
+// let abc=10;
 
-(function(){
-    let abc=100
-    console.log(abc);
+// (function(){
+//     let abc=100
+//     console.log(abc);
     
-})();
-console.log(abc);
+// })();
+// console.log(abc);
 
 // higher order function-async
 
-function retfun(x,y){
-    console.log("return statement");
-    return x+y;
-}
+// function retfun(x,y){
+//     console.log("return statement");
+//     return x+y;
+// }
 
-let val=retfun(100,200)
-console.log(val);
+// let val=retfun(100,200)
+// console.log(val);
 
-{ 
-function retfun(a,b){
-    console.log("sample code");
-    return a*b
-}
- let example=retfun(100,5)
- console.log(example);
-}
+// { 
+// function retfun(a,b){
+//     console.log("sample code");
+//     return a*b
+// }
+//  let example=retfun(100,5)
+//  console.log(example);
+// }
 
 // function display(name) {
 
@@ -82,37 +82,35 @@ function retfun(a,b){
 //   }
   
   
-  // const retFun= display("Ponraj");
+//   const retFun= display("Ponraj");
   
-  // retFun("Hii"); 
+//   retFun("Hii"); 
 
-  function fruit(name) {
-    console.log("fruit");
+//   function fruit(name) {
+//     console.log("fruit");
 
-    return function(price) {
+//     return function(price) {
 
-        console.log(name +"," + price);
+//         console.log(name +"," + price);
         
-    };
+//     };
 
-  };
+//   };
  
-  const retfun=fruit("Apple");
-  retfun("Rs.100.00 + 12%GST");
+//   const retfun=fruit("Apple");
+//   retfun("Rs.100.00 + 12%GST");
   
+//callback function
 
-call back function
+// function processUserInput(callback) {
 
-function processUserInput(callback) {
-
-    const bikename = "harley davidson";
+//     const bikename = "harley davidson";
   
-    callback(bikename);
+//     callback(bikename);
   
-  }
+//   }
   
-  
-//   processUserInput(function(name) {
+//  processUserInput(function(name) {
   
 //     console.log("Welcome to " + name);
   
@@ -290,12 +288,13 @@ function processUserInput(callback) {
   
 // }
 
-// for (let cars = 1; cars <3 ; cars++){
+// for (let cars = 1; cars <4 ; cars++){
     
-// for (let bikes =1; bikes <3 ; bikes++){
+// for (let bikes =1; bikes <2 ; bikes++){
 
 // console.log("cars = " + cars +",bikes = " +bikes );
 
 // }
 
 // }
+
